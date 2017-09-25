@@ -28,3 +28,14 @@
    1. desenvolver solução para os testes
    1. apresentar plano de teste e solução
    
+## Resolução
+- parte 1
+   Equipe: Anderson e Kaynara (https://github.com/andersondcs/calculadora-posfixa)
+   Tecnologia: Python
+   Plano de teste:
+   | Entrada  | Condição | Classes Válidas | Classes Inválidas |
+   | ------------- | ------------- | ------------- | ------------- |
+   | expressao | Expressão é do tipo string | tipo(expressao) == string | tipo(expressao) != string |
+   || String da expressão de tamanho impar | len(expressao) % 2 == 1 | len(expressao) % 2 == 0 |
+   |||||
+   |||||
